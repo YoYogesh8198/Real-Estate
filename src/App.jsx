@@ -1,9 +1,12 @@
 import React from 'react'
 import "./index.css"
+import Header from './components/Header/Header'
 
 const App = () => {
   return (
-    <div>App</div>
+    <div className='App'>
+      <Header />
+    </div>
   )
 }
 
